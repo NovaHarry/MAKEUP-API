@@ -9,13 +9,10 @@ maindiv.append(header);
 
 
 
-
-url = 'http://makeup-api.herokuapp.com/api/v1/products.json'
-
 // FETCHING RESPONSE USING ASYNC/AWAIT
 
 async function api(){
-    url = 'http://makeup-api.herokuapp.com/api/v1/products.json'
+    url = 'https://makeup-api.herokuapp.com/api/v1/products.json'
     var v = fetch(url)
     try{
     var out1 = await v;
